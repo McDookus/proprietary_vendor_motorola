@@ -82,7 +82,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/qcom318-32/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/motorola/qcom318-32/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/motorola/qcom318-32/proprietary/etc/lowi.conf:system/etc/lowi.conf \
-    vendor/motorola/qcom318-32/proprietary/etc/msm_irqbalance.conf:system/etc/msm_irqbalance.conf \
+    vendor/motorola/qcom318-32/proprietary/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/motorola/qcom318-32/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/motorola/qcom318-32/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/motorola/qcom318-32/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
@@ -116,6 +116,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/qcom318-32/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/motorola/qcom318-32/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/motorola/qcom318-32/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    vendor/motorola/qcom318-32/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/motorola/qcom318-32/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
     vendor/motorola/qcom318-32/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
     vendor/motorola/qcom318-32/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
