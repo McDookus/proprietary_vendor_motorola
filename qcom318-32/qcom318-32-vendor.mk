@@ -13,9 +13,11 @@
 # limitations under the License.
 
 PRODUCT_COPY_FILES += \
+    vendor/motorola/qcom318-32/proprietary/bin/adspd:system/bin/adspd \
     vendor/motorola/qcom318-32/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/motorola/qcom318-32/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/motorola/qcom318-32/proprietary/bin/cnd:system/bin/cnd \
+    vendor/motorola/qcom318-32/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/motorola/qcom318-32/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/motorola/qcom318-32/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/motorola/qcom318-32/proprietary/bin/imscmservice:system/bin/imscmservice \
